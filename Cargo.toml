@@ -1,0 +1,13 @@
+[package]
+name = "esp-wifi-lamp-v2"
+version = "0.1.0"
+authors = ["Nereuxofficial <37740907+Nereuxofficial@users.noreply.github.com>"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+hal = { package = "esp32h2-hal", version = "0.3.0" }
+esp-backtrace = { version = "0.9.0", features = ["esp32h2", "panic-handler", "exception-handler", "print-uart"] }
+esp-println = { version = "0.7.0", features = ["esp32h2","log"] }
+log = { version = "0.4.18" }
+esp-alloc = { version = "0.3.0" }
